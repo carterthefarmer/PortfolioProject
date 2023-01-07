@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carter Myers</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Patua+One&display=swap" rel="stylesheet"> 
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</head>
+<body>
+    <img src="branch.png" alt="" id="branch">
+    <br>
+    <div id="leaves">
+        <i></i>
+        <i></i>
+        <i></i>
+        <i></i>
+        <i></i>
+        <i></i>
+        <i></i>
+        <i></i>
+        <i></i>
+        <i></i>
+        <i></i>
+        <i></i>
+        <i></i>
+        <i></i>
+        <i></i> 
+    </div>
+
+    <div id="box1">
+        <h4>Carter Myers:  Jr. Developer { 2020 - present }</h4>
+    </div>
+
+    <div id="box2">
+        <!-- create a downloadable anchor tag where when clicked downloads MyersResume.docx from data/-->
+        <a id="ResumeScroll" href="data/MyersResume.docx" download> 
+            Resume
+            <ion-icon name="cloud-download"></ion-icon>
+        </a>
+    </div>
+
+    <div id="box3">
+        <a id="ProjectScroll" href="https://github.com/carterthefarmer">Projects
+            <ion-icon name="logo-github"></ion-icon>
+        </a>
+    </div>
+
+    <div id="box4" class="ContactLink">
+        <a id="ContactScroll" href="#ContactPage" class="ContactLink">Contact</a>
+            <ion-icon name="mail"></ion-icon>
+    </div>
+    
+    <div id="box5">
+        <a id="AboutScroll" href="#aboutMeHeader">About</a>   
+        <ion-icon name="information-circle"></ion-icon>
+    </div>
+    
+    <br>
+
+    <span class="birdContainer" style="animation:motion 5.5s infinite linear; transform:translate(100%, 20px) scale(0.8);">
+        <img id="body" src="birdBody.png" alt="">
+        <img id="wing1" src="birdwing1.png" alt="">
+        <img id="wing2" src="wing2.png" alt="">
+        
+    </span>
+
+    <span class="birdContainer" style="animation:motion 4.7s infinite linear; transform:translate(100%, 30px) scale(0.8);">
+        <img id="body" src="birdBody.png" alt="">
+        <img id="wing1" src="birdwing1.png" alt="">
+        <img id="wing2" src="wing2.png" alt="">
+        
+    </span>
+
+    <span class="birdContainer" style="animation:motion 4.8s infinite linear; transform:translate(100%, 40px) scale(0.8);">
+        <img id="body" src="birdBody.png" alt="">
+        <img id="wing1" src="birdwing1.png" alt="">
+        <img id="wing2" src="wing2.png" alt="">
+        
+    </span>
+
+    <h2 id="aboutMeHeader">About Me</h2>
+    
+    <p id="aboutmetxt">
+        <b> 
+            Greetings! I am Carter Myers </b>, 
+            an aspiring developer who is proudly looking for a spot in the fast paced software development field. 
+            Between managing a company to achieving nearly a perfect score in my data structures and algorithims coursework in college I have always pushed myself to achieve my full potential no matter the cost.
+            I am a hard worker who is always looking to learn new things and improve my skills. I'll conquer any oppurtunity that comes my way and I am always looking for new challenges.
+            <br>
+            <br>
+            Education:
+            <br>
+            <b>Arizona State University</b>  <i>2023 - 2024</i> <br> Bachelors of Science in Computer Science
+            <br>
+            <br>
+            <b>Chandler Gilbert Community College</b> <i>2020 - 2022</i> <br> Associates of Science in Computer Science
+    </p>
+    <div class="skills">
+    <h1>My Skills</h1>
+
+    <li><h3>Java</h3>
+        <span class="bar"><span class="java"></span></span>
+    </li>
+
+    <li><h3>C</h3>
+        <span class="bar"><span class="c"></span></span>
+    </li>
+
+    <li><h3>C++</h3>
+        <span class="bar"><span class="cpp"></span></span>
+    </li>
+
+    <li><h3>Javascript</h3>
+        <span class="bar"><span class="javascript"></span></span>
+    </li>
+
+    <li><h3>HTML</h3>
+        <span class="bar"><span class="html"></span></span>
+    </li>
+
+    <li><h3>CSS</h3>
+        <span class="bar"><span class="css"></span></span>
+    </li>
+
+    </div>
+
+    <div>
+        <h3 id="ContactPage">Contact Me</h3>      
+    </div>
+    
+    <form action="https://formsubmit.co/sceely1@gmail.com" method="POST" id="contact-form"/>
+        <div class="row">
+            <div class="input-group">
+                <input type="text" name="Person" id="name">
+                <label for="name">Your Name</label>
+            </div>
+        </div>
+        <div class="input-group">
+            <input type="email" name="email" id="email" required>
+            <label for="email">Email Address</label>
+        </div>
+        <div class="input-group">
+            <textarea type="text" name="message" id="message" rows="8" required></textarea>
+            <label for="message">Your Message</label>
+        </div>
+
+        <button id="submit" type="submit">Submit</button>
+        
+        </form> 
+</html>
